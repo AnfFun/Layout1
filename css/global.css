@@ -44,3 +44,20 @@ header {
     text-decoration-line: underline;
     text-decoration-style: dashed;
 }
+.navigation{
+    width: 100%;
+    font-family: 'Pacifico', cursive;
+    background-color: #767676;
+    text-align: center;
+    font-size: 26px ;
+    color: rgba(255,255,255,0.71);
+    padding: 15px 0 15px 0;
+}
+nav a{
+    text-decoration: none;
+    color: rgba(255,255,255,0.71);
+}
+nav :visited{
+    text-decoration: none;
+    color: rgba(255,255,255,0.71);
+}
