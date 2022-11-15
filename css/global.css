@@ -145,6 +145,7 @@ nav :visited {
 }
 
 ul.breadcrumb {
+    font-family: 'Pacifico', cursive;
     margin-left: 10%;
     list-style: none;
     width: 8%;
@@ -173,4 +174,26 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
     color: #767676;
     text-decoration: none;
+}
+.BlogSection{
+    font-family: 'Pacifico', cursive;
+}
+.TitleBlog{
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.ContentBlog{
+    font-size: 31px;
+    padding: 100px;
+    padding-top: 0;
+}
+.foot{
+    background-color: #767676;
+    height: 220px;
+    text-align: center;
+    padding-top: 90px;
+    color: rgba(255,255,255,0.71);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
 }
