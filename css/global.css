@@ -32,11 +32,13 @@ header {
     margin-left: 650px;
     color: #767676;
 }
-.phone{
+
+.phone {
     font-size: 38px;
     font-family: 'Open Sans', sans-serif;
 }
-.feedback{
+
+.feedback {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 24px;
@@ -44,20 +46,131 @@ header {
     text-decoration-line: underline;
     text-decoration-style: dashed;
 }
-.navigation{
+
+.navigation {
     width: 100%;
     font-family: 'Pacifico', cursive;
     background-color: #767676;
     text-align: center;
-    font-size: 26px ;
-    color: rgba(255,255,255,0.71);
+    font-size: 26px;
+    color: rgba(255, 255, 255, 0.71);
     padding: 15px 0 15px 0;
 }
-nav a{
+
+nav a {
     text-decoration: none;
-    color: rgba(255,255,255,0.71);
+    color: rgba(255, 255, 255, 0.71);
 }
-nav :visited{
+
+nav :visited {
     text-decoration: none;
-    color: rgba(255,255,255,0.71);
+    color: rgba(255, 255, 255, 0.71);
+}
+
+* {
+    box-sizing: border-box
+}
+
+
+.slideshow-container {
+    position: relative;
+    margin: auto;
+}
+
+
+.mySlides {
+    display: none;
+}
+
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+ul.breadcrumb {
+    margin-left: 10%;
+    list-style: none;
+    width: 8%;
+}
+
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 14px;
+}
+
+
+ul.breadcrumb li + li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+
+ul.breadcrumb li a {
+    color: #767676;
+    text-decoration: none;
+}
+
+
+ul.breadcrumb li a:hover {
+    color: #767676;
+    text-decoration: none;
 }
